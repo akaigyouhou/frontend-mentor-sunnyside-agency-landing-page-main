@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5.5em;
+    position: relative;
+}
+
+.nav__hamburger {
+    cursor: pointer;
+}

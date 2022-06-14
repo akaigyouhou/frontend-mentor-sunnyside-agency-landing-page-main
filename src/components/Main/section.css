@@ -1,0 +1,47 @@
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-image {
+    width: 100vw;
+    height: 19.5em;
+    background-size: contain;
+}
+
+.section-image-0 {
+    background-image: url("../../images/mobile/image-transform.jpg");
+}
+
+.section-image-1 {
+    background-image: url("../../images/mobile/image-stand-out.jpg");
+}
+
+.article {
+    text-align: center;
+    padding: 4em 1.6em 4.08em;
+}
+
+
+.article__title {
+    font-family: "Fraunces";
+    font-size: 2em;
+    margin-bottom: 0.78em;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.article__content {
+    font-size: 1.1em;
+    line-height: 1.71em;
+    margin-bottom: 1.85em;
+    color: var(--Dark-grayish-blue);
+}
+
+.article__button {
+    font-family: "Fraunces";
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.02em;
+    margin-right: 0.2em;
+    color: var(--Very-dark-desaturated-blue);
+}

@@ -1,0 +1,46 @@
+.menu {
+    position: absolute;
+    background-color: var(--White);
+    display: none;
+}
+
+.menu-open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 4.6em;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50.5%);
+    padding: 2.5em 5.9em;
+}
+
+.menu::before {
+    content: "";
+    top: -1.45em;
+    right: 0;
+    position: absolute;
+    border: 0.75em solid;
+    border-color: transparent var(--White) var(--White) transparent;
+}
+
+.menu-item {
+    font-size: 1.2em;
+    margin-bottom: 1.65em;
+    margin-left: 0.1em;
+}
+
+.menu-item:last-child {
+    margin-bottom: 0;
+    margin-left:
+}
+
+.menu-item-contact {
+    background-color: var(--Yellow);
+    text-transform: uppercase;
+    font-family: "Fraunces";
+    font-size: 0.95em;
+    padding: 1.2em;
+    width: 100%;
+    border-radius: 30px;
+}

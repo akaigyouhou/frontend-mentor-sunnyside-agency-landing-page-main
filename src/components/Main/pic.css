@@ -1,0 +1,20 @@
+.picture {
+    height: 11.7em;
+    background-size: contain;
+}
+
+.picture-0 {
+    background-image: url("../../images/mobile/image-gallery-milkbottles.jpg");
+}
+
+.picture-1 {
+    background-image: url("../../images/mobile/image-gallery-orange.jpg");
+}
+
+.picture-2 {
+    background-image: url("../../images/mobile/image-gallery-cone.jpg");
+}
+
+.picture-3 {
+    background-image: url("../../images/mobile/image-gallery-sugar-cubes.jpg");
+}

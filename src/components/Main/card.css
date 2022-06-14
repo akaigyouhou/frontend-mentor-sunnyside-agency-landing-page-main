@@ -1,0 +1,29 @@
+.card {
+    text-align: center;
+    padding: 24.9em 1em 3.63em;
+    background-size: contain;
+}
+
+.card-0 {
+    background-image: url("../../images/mobile/image-graphic-design.jpg");
+}
+
+.card-1 {
+    background-image: url("../../images/mobile/image-photography.jpg");
+}
+
+.card__title {
+    font-family: "Fraunces";
+    font-size: 1.75em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+
+.card__title-1 {
+    margin-right: 0.4em;
+}
+
+.card__content {
+    font-size: 0.98em;
+    line-height: 1.73em;
+}

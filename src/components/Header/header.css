@@ -1,0 +1,22 @@
+.header {
+    background-image: url("../../images/mobile/image-header.jpg");
+    background-size: contain;
+    text-align: center;
+    padding: 2em 1.5em;
+}
+
+.header__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Fraunces";
+    font-weight: 900;
+    color: var(--White);
+    font-size: 2.5em;
+    letter-spacing: 0.17em;
+    margin-bottom: 1.2em;
+}
+
+.header__arrow {
+    margin-bottom: 6em;
+}
+

@@ -1,0 +1,30 @@
+.client-article {
+    padding: 2.16em 0 2.16em;
+}
+
+.client-article__avatar {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    margin-bottom: 1.82em;
+    margin-right: 0.1em;
+}
+
+.client-article__content {
+    font-size: 1.11em;
+    line-height: 1.8em;
+    margin-bottom: 1.8em;
+    color: var(--Very-dark-grayish-blue);
+}
+
+.client-article__name {
+    font-family: "Fraunces";
+    font-size: 1.13em;
+    margin-bottom: 0.65em;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.client-article__title {
+    font-size: 0.86em;
+    color: var(--Grayish-blue);
+}
