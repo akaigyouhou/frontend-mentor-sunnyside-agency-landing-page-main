@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7624d2de.css",
-    "main.js": "./static/js/main.003aa3a3.js",
+    "main.js": "./static/js/main.9440fd05.js",
     "static/media/Barlow-SemiBold.ttf": "./static/media/Barlow-SemiBold.8247eaeb0799c0acafc6.ttf",
     "static/media/image-header.jpg": "./static/media/image-header.9167cda0c72b56b2cda5.jpg",
     "static/media/Fraunces-Black.ttf": "./static/media/Fraunces-Black.288e85cb2a1330ef7118.ttf",
@@ -22,10 +22,10 @@
     "static/media/icon-arrow-down.svg": "./static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "static/media/icon-hamburger.svg": "./static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
     "main.7624d2de.css.map": "./static/css/main.7624d2de.css.map",
-    "main.003aa3a3.js.map": "./static/js/main.003aa3a3.js.map"
+    "main.9440fd05.js.map": "./static/js/main.9440fd05.js.map"
   },
   "entrypoints": [
     "static/css/main.7624d2de.css",
-    "static/js/main.003aa3a3.js"
+    "static/js/main.9440fd05.js"
   ]
 }
