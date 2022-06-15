@@ -2,7 +2,7 @@ import "./section.css";
 
 const Section = ({article, index}) => {
     return (
-        <section className={`section section-${index}`}>
+        <div className={`section section-${index}`}>
             <div className={`section-image section-image-${index}`}></div>
             <div className="article-contianer">
                 <article className={`article article-${index}`}>
@@ -11,7 +11,7 @@ const Section = ({article, index}) => {
                     <button className={`article__button article__button-${index}`}><span>Learn more</span></button>
                 </article>
             </div>
-        </section>
+        </div>
     );
 }
 
