@@ -13,9 +13,11 @@ const Main = () => {
             {articles.map((article, index) => (
                 <Section key={article.title} article={article} index={index} />
             ))}
-            {cards.map((card, index) => (
-                <Card key={card.title} title={card.title} content={card.content} index={index} />
-            ))}
+            <div className="card-container">
+                {cards.map((card, index) => (
+                    <Card key={card.title} title={card.title} content={card.content} index={index} />
+                ))}
+            </div>
             <Client />
             <Gallery />
         </main>

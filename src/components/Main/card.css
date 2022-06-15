@@ -27,3 +27,21 @@
     font-size: 0.98em;
     line-height: 1.73em;
 }
+
+@media (min-width: 800px) {
+    .card {
+        flex: 1;
+        padding: 24.9em 12em 3.63em;
+    }
+
+    .card-0 {
+        background-image: url("../../images/desktop/image-graphic-design.jpg");
+    }
+
+    .card-1 {
+        background-image: url("../../images/desktop/image-photography.jpg");
+    }
+    .card__title-1 {
+        margin-right: 0;
+    }
+}

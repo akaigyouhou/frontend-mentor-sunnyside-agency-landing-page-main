@@ -18,3 +18,25 @@
 .picture-3 {
     background-image: url("../../images/mobile/image-gallery-sugar-cubes.jpg");
 }
+
+@media (min-width: 800px) {
+    .picture {
+        height: 27.9em;
+        background-size: contain;
+    }    
+    .picture-0 {
+        background-image: url("../../images/desktop/image-gallery-milkbottles.jpg");
+    }
+    
+    .picture-1 {
+        background-image: url("../../images/desktop/image-gallery-orange.jpg");
+    }
+    
+    .picture-2 {
+        background-image: url("../../images/desktop/image-gallery-cone.jpg");
+    }
+    
+    .picture-3 {
+        background-image: url("../../images/desktop/image-gallery-sugarcubes.jpg");
+    }
+}

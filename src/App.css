@@ -4,3 +4,9 @@
   font-weight: 700;
   background-color: var(--creamy-white);
 }
+
+@media (min-width: 800px) {
+  .App {
+    width: 100vw;
+  }
+}

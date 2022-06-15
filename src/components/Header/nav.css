@@ -9,3 +9,15 @@
 .nav__hamburger {
     cursor: pointer;
 }
+
+@media (min-width: 800px) {
+    .nav {
+        margin-bottom: 6.6em;
+    }
+    .nav__hamburger {
+        display: none;
+    }
+    .nav__logo {
+        width: 10.7em;
+    }
+}

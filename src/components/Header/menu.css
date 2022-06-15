@@ -44,3 +44,38 @@
     width: 100%;
     border-radius: 30px;
 }
+
+@media (min-width: 800px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        position: inherit;
+        background: none;
+        margin-right: 0.5em;
+        /* width: 35%; */
+    }
+    .menu::before {
+        display: none;
+    }
+    .menu-item:first-child {
+        margin-right: 0.15em;
+    }
+    .menu-item {
+        flex: 1;
+        margin-bottom: 0;
+        font-size: 1.1em;
+        margin-left: 1.75em;
+        color: var(--White);
+    }
+    .menu-item-contact {
+        padding: 1.2em 2em;
+        margin-left: 2.6em;
+        background-color: var(--White);
+        transition: all 0.2s;
+    }
+    .menu-item-contact:hover {
+        color: var(--White);
+        background-color: var(--light-blue);
+    }
+}

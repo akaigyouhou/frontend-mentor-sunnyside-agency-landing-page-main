@@ -15,12 +15,19 @@ html {
 
   --creamy-white: hsl(26, 100%, 99%);
   --light-cyan: hsl(167, 44%, 70%);
+  --light-blue: hsl(200, 100%, 72%);
 }
 
 body {
   margin: 0;
   /* background-image: url("../design/mobile-design.jpg"); */
   /* background-image: url("../design/mobile-menu.jpg"); */
+}
+
+@media (min-width: 800px) {
+  body {
+    /* background-image: url("../design/desktop-design.jpg"); */
+  }
 }
 
 *,
@@ -70,4 +77,5 @@ button {
   font-family: "Barlow";
   background: none;
   cursor: pointer;
+  padding: 0.2em 0.5em;
 }

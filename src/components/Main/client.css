@@ -16,3 +16,18 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (min-width: 800px) {
+    .client {
+        padding: 10em 1.6em 8.2em;
+    }
+    .client__title {
+        font-size: 1.25em;
+        margin-bottom: 2.4em;
+    }
+    .client-container {
+        flex-direction: row;
+        /* width: 90vw; */
+        margin: 0em 7.8em 0 7.8em;
+    }
+}

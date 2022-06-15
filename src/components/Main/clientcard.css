@@ -28,3 +28,27 @@
     font-size: 0.86em;
     color: var(--Grayish-blue);
 }
+
+@media (min-width: 800px) {
+    .client-article {
+        flex: 1;
+        padding: 2.16em 0.95em 2.16em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-article__avatar {
+        margin-bottom: 3.6em;
+        margin-right: 0;
+    }
+    .client-article__content {
+        margin-bottom: 3.9em;
+    }
+    .client-article__name {
+        margin-right: 1em;
+        margin-bottom: 0.7em;
+    }
+    .client-article__title {
+        margin-right: 1.2em;
+    }
+}
