@@ -1,6 +1,6 @@
 .header {
     background-image: url("../../images/mobile/image-header.jpg");
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     padding: 2em 1.5em;
 }

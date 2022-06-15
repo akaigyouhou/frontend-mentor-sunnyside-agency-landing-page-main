@@ -6,7 +6,7 @@
 .section-image {
     width: 100vw;
     height: 19.5em;
-    background-size: contain;
+    background-size: cover;
 }
 
 .section-image-0 {
@@ -94,7 +94,6 @@
     .section-image {
         flex: 0 0 50%;
         height: 100%;
-        background-repeat: no-repeat;
     }
     .section-image-0 {
         background-image: url("../../images/desktop/image-transform.jpg");

@@ -24,11 +24,11 @@ body {
   /* background-image: url("../design/mobile-menu.jpg"); */
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   body {
-    /* background-image: url("../design/desktop-design.jpg"); */
+    background-image: url("../design/desktop-design.jpg");
   }
-}
+} */
 
 *,
 ::before,

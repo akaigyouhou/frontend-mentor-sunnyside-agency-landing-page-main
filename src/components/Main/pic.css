@@ -1,6 +1,6 @@
 .picture {
     height: 11.7em;
-    background-size: contain;
+    background-size: cover;
 }
 
 .picture-0 {
@@ -22,7 +22,6 @@
 @media (min-width: 800px) {
     .picture {
         height: 27.9em;
-        background-size: contain;
     }    
     .picture-0 {
         background-image: url("../../images/desktop/image-gallery-milkbottles.jpg");
